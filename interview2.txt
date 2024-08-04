@@ -1,0 +1,22 @@
+1.difference bw state and useSate
+    state is like any other variable like const name = "developer" in normal way
+    but for react state is when we update it it should re-render the ui
+
+2. how many hook do we have to update state
+    useReducer
+    useState
+
+3. way to track the state changes
+    useEffect with dependency array
+
+4. why vite faster as compare webpack
+
+   CRA(create react app): in webpack it serve bundle 
+   vite: use es6 in development server in files not in bundle  in production it serves bundle
+
+5. source map helps to see jsx,scss, tsx files
+    we see those all file in dev tools with the help of source map as browser don't know about the jsx
+
+6. hooks
+    inbuilt hooks
+    custom hooks

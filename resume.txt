@@ -1,0 +1,90 @@
+SUMMARY
+Sunil Prajapati
+Amritsar, Punjab, India sp735705@gmail.com +91 8054116220 in/sunil-prajapati007
+Passionate and dedicated Frontend Developer with 5 years of experience in developing and maintaining responsive web and mobile applications. Proficient in React, React Native, Next.js, Gatsby, and other modern technologies. Proven ability to deliver high-quality code, resolve complex issues, and collaborate effectively with cross-functional teams to achieve project goals.
+EXPERIENCE
+Frontend Developer
+LDT Technology October 2020 - Present, Zirakpur
+• At Ldt technology I works as Resource base for international companies so, i worked for different companies as mention below
+Statrys (Hong Kong-based Fintech Company)
+Role: Mobile and Web App Developer
+Responsibilities:Developed and maintained various products, including Marketing Site (Gatsby), Invoice (React), Company Management (Gatsby), and Admin Panel (Next.js).Collaborated with product owners to fulfill all requirements, including creating new modules, resolving production bugs, and improving site performanc
+•
+Blink Player(Pakistan)
+Role: Mobile and Web Developer
+Responsibilities:Built a website and mobile app for Xtream panel and M3U player.Developed features such as user management, web player with Video.js, switching users and categories for Live TV, Movies, and Series.
+•
+• HomeRento(India based)
+Role: Mobile App Developer
+Responsibilities:Developed an Android app with WebView for a WordPress site focused on buying and rental needs.Integrated features like back press handling, file upload, email, WhatsApp, and dialer functionality.
+•
+• Gobble (Singapore-based Social Commerce Platform)
+Role: Mobile App Developer
+Responsibilities:Developed a social commerce food-ordering platform for college students and young working adults.Enabled features like friend connectivity, order sharing, discounts, and loyalty rewards.
+• ChopDawg (USA-based Company)Role: Mobile App DeveloperResponsibilities:Developed mobile and tablet apps in React Native.Implemented features like login/signup, user management, admin management, live chat, drag-and-drop assignments, and worker management.
+• LootBox (Kuwait-based E-commerce App)Role: Mobile App DeveloperResponsibilities:Developed an e-commerce app with features like user management, advanced builder and filters, add to cart, and order tracking.
+Junior PHP Developer
+New Spark Technology July 2019 - September 2020, Mohali • Created, maintained, and enhanced web applications and websites.Identified and resolved technical issues, debugged code, and performed
+testing to ensure proper functionality.
+PROJECTS
+WebTv player
+Blink player • webtv.iptvblinkplayer.com/ • May 2023 - Present
+• Built a website and mobile app for Xtream panel and M3U player.Developed features such as user management, Parent lock, settings web
+player with Video.js, switching users and categories for Live TV, Movies, and Series. Mobile app link: (https://play.google.com/store/search?q=blinkplayer&c=apps)
+Statrys (Marketing and onboarding) Web app
+Statrys • statrys.com • July 2022 - Present
+.
+.
+
+• I created a marketing site designed to engage traffic with an intuitive UI, making it easy for users to access comprehensive information about the company's products. The site features an onboarding flow for creating business accounts, implemented using React Hook Form, Tailwind CSS, and Redux for state management.
+• To enhance performance, I optimized the code with techniques such as lazy loading and code splitting. Additionally, I resolved almost all the issues identified by Lighthouse and speed tests to ensure optimal performance. Other strategies I implemented to improve website performance include:
+• Image Optimization: Compressed images and used modern formats like WebP to reduce load times.
+• Caching Strategies: Leveraged browser caching and service workers to improve load times for returning visitors.
+• Minification: Minified CSS, JavaScript, and HTML files to reduce the size of resources.
+• Critical CSS: Inlined critical CSS to ensure the initial render is as fast as possible.
+• Async and Deferred Loading: Used async and defer attributes for loading JavaScript to prevent render-blocking
+Invoice
+Statrys • invoice.statrys.com/ • July 2022 - Present
+• I have developed features for creating, duplicating, and uploading invoices. To extract information from uploaded invoices, OCR technology is
+utilized. Additionally, QR codes and payment links for PayPal and Payme have been integrated. User management functionalities are also included.
+Incorporation
+Statrys • incorporation.statrys.com • July 2022 - Present
+• Developing the multi-step onboarding flow: Ensuring a smooth and user-friendly experience for creating new companies.
+• State Management with Redux: Managing complex state across the onboarding process and user dashboard.
+• Styling with Tailwind CSS: Creating a responsive and visually appealing interface.
+• Performance Optimization: Utilizing Gatsby’s static site generation and other performance enhancements to ensure fast load times and a
+smooth user experience.
+• User Dashboard Development: Allowing users to log in, view, and manage company documents and shareholder information.
+BackOffice
+Statrys • backoffice.statrys.com/ • July 2022 - Present
+• I developed a Content Management System (CMS) using Next.js, combined with Redux for state management with team. The CMS serves as
+an admin panel designed to handle onboarding processes and company creation tasks efficiently. The main functionalities implemented include Create, Read, Update, and Delete (CRUD) operations on data related to onboarding and company information.
+HomeRento
+HomeRento • play.google.com/store/apps/details?id=com.homrento.homrento • May 2024 - May 2024
+• Developed an Android app with WebView for a WordPress site focused on buying and rental needs.Integrated features like back press
+handling, file upload, email, WhatsApp, and dialer functionality.
+LootBox
+LootBox •September2020-February2024
+• Developed an e-commerce app with features like user management, advanced builder and filters, add to cart, and order tracking.
+Gobble
+Gobble • play.google.com/store/apps/details?id=com.app.gobble • July 2021 - June 2022
+• Developed a social commerce food-ordering platform for college students and young working adults.Enabled features like friend
+connectivity, order sharing, discounts, and loyalty rewards.
+Obras
+ChopDawg • November 2020 - August 2021
+• Developed mobile and tablet apps in React Native.Implemented features like login/signup, user management, admin management, live chat, drag-and-drop assignments, and worker management.
+EDUCATION
+Master of computer science
+LPU College, Punjab • Jalandhar • 2021 • 6.7
+Bachelor of Computer Science
+.
+.
+
+G.N.D.U college Punjab • Amritsar • 2019 • 6.9
+SKILLS
+Frontend Technologies: React, React Native, Next.js, Gatsby, Swift(just started) State Management: Redux, Zustand, UseContext, React QueryUI , Hubspot Frameworks: Tailwind, MUI
+Tools: Prismic, Firebase, OCR, Sentry
+Languages: HTML, CSS, JavaScript, PHP
+Control: GitDevelopment Practices: Agile, SCRUM
+.
+.

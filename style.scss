@@ -1,0 +1,29 @@
+@use "sass:math";
+
+@import "file path where we stored function";
+
+@function rem($pixel) {
+  @if math.is-unitless($pixel) {
+    @return math.div($pixel, 16) + rem;
+  }
+}
+
+h1.rem {
+  font-size: rem(32);
+}
+
+h2.rem {
+  font-size: rem(24);
+}
+
+p.rem {
+  font-size: rem(16);
+  width: rem(200px);
+}
+
+@media (width < rem(1000)) {
+  .box {
+    grid-template-columns: 1fr;
+    padding: rem(24);
+  }
+}

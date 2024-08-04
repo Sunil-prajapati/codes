@@ -1,0 +1,29 @@
+Global execution context
+this is divided into two parts:-
+memory creation phase           code execution phase
+
+variable store as undefined
+function stored as whole 
+function in this section 
+
+
+
+POINTS =>
+function has own scope as local with this keyword  (memory allocation phase code execution phase also in function scope)
+let and const in script section
+function is pure hosting because it already available in memory phase 
+
+
+================
+call stack 
+
+first stack is Global(anonymous) stack
+second can be function stack if any
+call stack follow LIFO
+once it get out from stack it got deleted 
+
+function introduceMe(){
+    console.log("in call stack")
+    introduceMe() it will generate issue maximum call stack 
+}
+introduceMe()

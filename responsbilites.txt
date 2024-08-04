@@ -1,0 +1,22 @@
+
+As part of the Infosys Delivery team, you will work on implementing designs, developing high quality programs and systems, partnering with our clients to ensure high quality deliverables.
+You will create technical artifacts and be the first point of contact in responding to production issues and conducting any technical analysis to arrive at solutions
+You will share your learnings from projects through knowledge management initiatives and leverage knowledge from other projects to drive high efficiency and effectiveness
+You will be a key contributor to building efficient programs/systems and if you think you fit right in to help our clients navigate their next in their digital transformation journey, this is the place for you!
+If you think you fit right in to help our clients navigate their next in their digital transformation journey, this is the place for you!
+Technical and Professional Requirements: • Primary skills:Technology->Reactive Programming->react JS
+Preferred Skills: Technology->Reactive Programming->react JS
+
+
+
+Advanced conceptual understanding of at least one Programming Language
+Advanced conceptual understanding of one database and one Operating System
+Understanding of Software Engineering with practice in at least one project
+Ability to contribute in medium to complex tasks independently
+Exposure to Design Principles and ability to understand Design Specifications independently
+Ability to run Test Cases and scenarios as per the plan
+Ability to accept and respond to production issues and coordinate with stake holders
+Good understanding of SDLC
+Analytical abilities
+Logical thinking
+Awareness of latest technologies and trends

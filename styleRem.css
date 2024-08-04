@@ -1,0 +1,24 @@
+:root {
+    --16px: 1rem;
+    --24px: 1.5rem;
+    --32px: 2rem;
+    --300px: 18.75rem;
+}
+
+h1 {
+    font-size: var(--32px);
+}
+
+h2 {
+    font-size: var(--24px);
+}
+
+p {
+    font-size: var(--16px);
+}
+
+@media(width < 62.5em) {
+    .box {
+        grid-template-columns: 1fr;
+    }
+}
