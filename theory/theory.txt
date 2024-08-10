@@ -1,0 +1,34 @@
+1. Element vs components
+it's a plain object describing what you want to see regarding the DOM nodes on the screen.
+React elements are not actual DOM elements but provide an object representation of a DOM node.
+React elements are immutable, meaning once you create an element, you can't change its children or attributes.
+An element is created using React.createElement() or JSX, a syntax extension for JavaScript.
+
+Components are the building blocks of any React application,
+allowing developers to break down the UI into reusable, manageable pieces. 
+Each component encapsulates its structure, behavior, and state, making it possible to create complex applications with simple, 
+isolated code units.
+
+=========
+PureComponent is similar to Component but it skips re-renders for same props and state.
+with same input i will give same output
+
+==========
+refs is uncontrolled
+with dom we can manipulate
+
+========
+forwardRef lets your component expose a DOM node to parent component with a ref.
+
+=====
+interceptors 
+basically we intercept the api request and response before going to backend and coming response to us
+
+=======
+React Fiber is used to render a system faster and smoother.
+Fiber focuses on animations and responsiveness
+It has the ability to split work into chunks and prioritize tasks.
+
+====== 
+how to manage nested routes in terms of roles based routing
+we can save data in redux and check in the router main file 

@@ -76,3 +76,9 @@ var name = () => {
 // const declarations are block scoped
 // const cannot be updated or re-declared
 // only on object we can update the const
+
+// var has function scope
+// let and var are block scoped
+
+// with the var we have a problem of updating the value in same address to  resolve this es6 introduce let const
+// we can similar variable out side of the block

@@ -5,7 +5,8 @@ key feature of fibre such as pause, abort and reuse  (important)
 also gives priorities to the changes 
 
 
-Reconciliation : The algorithm React uses to diff one tree with another to determine which parts need to be changed.(virtual and react tree)
+Reconciliation : The algorithm React uses to diff one tree with another to determine which parts need to be changed.
+(virtual and react tree)
 Diffing algorithm we use in Reconciliation
 
 Although Fiber is a ground-up rewrite of the reconciler,

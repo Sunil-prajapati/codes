@@ -34,6 +34,8 @@ function displaySquare(fun) {
 // ======== function scope =======
 for (let i = 0; i < 5; i++) {
   // output will change on base of LET and VAR
+  // if we use LET then it will print number till five after 1 sec
+  // if we use var then it will print 5 every time after 1 min
   setTimeout(function () {
     return i;
   }, i * 1000);
@@ -82,7 +84,7 @@ square(4); //Arguments
 
 // ===== spread and rest ======
 // NOTE : same syntax but functionality depends where we use
-
+// spread operator basically separates all the things
 function mul(...num) {
   // REST operator when we get value
   console.log(num[0] * num[1]);
@@ -116,8 +118,10 @@ processUserInput(greeting);
 // 1.syntax
 // 2.implicit "return" keyword (if we have one line of code then we can write on same line without return keyword)
 // 3.Arguments: in arrow function we don't have arguments
-// 4.this keyword refer global in Arrow function but in normal function it refeers to the parent object
+// 4.this keyword refer global in Arrow function but in normal function it refers to the parent object
+// 5. Arrow function don't host
 // explicit return if with {}
+// 6.in the case of clouser we can this in arrow function
 
 function add(q, b) {
   return q + b;
@@ -164,7 +168,7 @@ main(greeting);
 
 // ==========  question ======
 ab();
-b();
+// b();
 function ab() {
   console.log("a function statement and declaration are same");
 }
@@ -176,7 +180,7 @@ var b = function () {
 var c = function xy() {
   console.log("named function expression");
 };
-xy();
+// xy();
 
 // we can also create methods with the help of commonMethods
 

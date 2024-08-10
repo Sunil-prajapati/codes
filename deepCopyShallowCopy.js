@@ -1,16 +1,17 @@
-// let obj = {
-//     name: "peter"
-//   };
-//   let user = obj;
-//   user.name = "bruce";
-//   console.log(obj); // reference copy
+// let obj10 = {
+//   name: "peter",
+// };
+// let user = obj10;
+// user.name = "bruce";
+// console.log(obj10);
+// reference copy
 // when we assign any object to any other object then that reference will copy not data
 
 // but when copy value that value will copy not reference e.g below
-//   let x = 2;
-//   let y = x;
-//   y = 3;
-//   console.log(x);
+// let x = 2;
+// let y = x;
+// y = 3;
+// console.log(x);
 
 //1. Shallow copy : ONLY WORKS For ONE LEVEL
 let obj = {
@@ -18,10 +19,10 @@ let obj = {
 };
 
 // way to do shallow copy
-//   let user = Object.assign({},obj);
-let user = { ...obj };
+let user = Object.assign({}, obj);
+// let user = { ...obj };
 user.name = "bruce";
-//   console.log(obj);
+// console.log(user);
 
 // ==========
 // DEEP COPY : will not work when there is any function/date in the object
@@ -38,11 +39,10 @@ let obj1 = {
   },
 };
 
-// way to do shallow copy
-//   let user = Object.assign({},obj);
+// way to do deep copy
 let user1 = JSON.parse(JSON.stringify(obj1));
 user1.address.city = "ZIRAKPUR";
-//   console.log(obj1);
+// console.log(obj1);
 
 // ====== lodash
 let obj2 = {
@@ -57,7 +57,7 @@ let obj2 = {
 };
 
 // way to do shallow copy
-//   let user = Object.assign({},obj);
+// let user = Object.assign({}, obj);
 let user2 = _.cloneDeep(obj);
 user2.address.city = "ZIRAKPUR";
-//   console.log(user2);
+console.log(user2);
