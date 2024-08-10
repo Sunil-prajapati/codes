@@ -13,9 +13,9 @@ addByTwo(3);
 const sumClosures = function (a) {
   return function (b) {
     return function (c) {
-      //   console.log(a + b + c, "closures");
+      // console.log(a + b + c, "closures");
     };
-    // console.log(a + b, );
+    console.log(a + b);
   };
 };
 
@@ -45,7 +45,7 @@ function partial(a) {
     return a + b + c;
   };
 }
-console.log(partial(1)(2, 4), "partial");
+// console.log(partial(1)(2, 4), "partial");
 
 // ========= curry implementation ===
 
@@ -67,5 +67,5 @@ const join = (a, b, c) => {
 
 const curriedJoin = curry(join);
 
-console.log(curriedJoin(1, 2, 3));
-console.log(curriedJoin(1)(2, 3));
+// console.log(curriedJoin(1, 2, 3));
+// console.log(curriedJoin(1)(2, 3));
