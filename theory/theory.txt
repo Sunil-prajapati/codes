@@ -42,8 +42,24 @@ and then it's maintain virtual DOM
 we use babel transpiler to convert jsx to simple html
 in class we have render method to return jsx but in functional we directly return jsx
 simpler and more flexible with hooks we can easily manage state, handle side effects, 
-Functional components are more performant than class components.
+Functional components are more performant than class components. below is the reason
+class > function > render 
+functional > render
 
 ===== how data flow in react ===
 react is unidirectional 
 parent to child data flow 
+
+=== error boundary for components ===
+  static getDerivedStateFromError(error) {
+    // Update state so the next render will show the fallback UI.
+    return { hasError: true };
+  }
+   componentDidCatch(error, info) {
+    // Example "componentStack":
+    //   in ComponentThatThrows (created by App)
+    //   in ErrorBoundary (created by App)
+    //   in div (created by App)
+    //   in App
+    logErrorToMyService(error, info.componentStack);
+  }
