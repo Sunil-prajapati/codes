@@ -3,7 +3,7 @@ IN VIRTUAL dom react have it's track of changes
 react use fibre algorithm to update virtual DOM 
 key feature of fibre such as pause, abort and reuse  (important)
 also gives priorities to the changes 
-
+virtual dom is copy of real dom
 
 Reconciliation : The algorithm React uses to diff one tree with another to determine which parts need to be changed.
 (virtual and react tree)

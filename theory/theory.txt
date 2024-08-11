@@ -39,7 +39,7 @@ that mount project on DOM
 and then it's maintain virtual DOM
 
 =========
-we use babbel transpiler to convert jsx to simple html
+we use babel transpiler to convert jsx to simple html
 in class we have render method to return jsx but in functional we directly return jsx
 simpler and more flexible with hooks we can easily manage state, handle side effects, 
 Functional components are more performant than class components.
