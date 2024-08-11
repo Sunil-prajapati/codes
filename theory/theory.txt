@@ -17,18 +17,33 @@ with same input i will give same output
 refs is uncontrolled
 with dom we can manipulate
 
-========
+==========
 forwardRef lets your component expose a DOM node to parent component with a ref.
 
-=====
+==========
 interceptors 
 basically we intercept the api request and response before going to backend and coming response to us
 
-=======
+==========
 React Fiber is used to render a system faster and smoother.
 Fiber focuses on animations and responsiveness
 It has the ability to split work into chunks and prioritize tasks.
 
-====== 
+============ 
 how to manage nested routes in terms of roles based routing
 we can save data in redux and check in the router main file 
+
+=== when we hit localhost 300 ==
+we pass root element to index file and there we have render method 
+that mount project on DOM 
+and then it's maintain virtual DOM
+
+=========
+we use babbel transpiler to convert jsx to simple html
+in class we have render method to return jsx but in functional we directly return jsx
+simpler and more flexible with hooks we can easily manage state, handle side effects, 
+Functional components are more performant than class components.
+
+===== how data flow in react ===
+react is unidirectional 
+parent to child data flow 
