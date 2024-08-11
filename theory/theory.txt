@@ -34,7 +34,7 @@ how to manage nested routes in terms of roles based routing
 we can save data in redux and check in the router main file 
 
 === when we hit localhost 300 ==
-we pass root element to index file and there we have render method 
+we pass create root element to index file and there we have render method 
 that mount project on DOM 
 and then it's maintain virtual DOM
 
