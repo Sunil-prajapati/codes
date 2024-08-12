@@ -38,3 +38,17 @@ console.log(
     "Soul",
   ])
 );
+
+function rotateArray(arr, n) {
+  if (n > 1) {
+    const splicedArray = arr.splice(arr.length - n);
+    const rotatedArray = [...splicedArray, ...arr];
+    return rotatedArray;
+  } else {
+    const splicedArray = arr.splice(arr[0] - n);
+    const rotatedArray = [...splicedArray, ...arr];
+    return rotatedArray;
+  }
+}
+const result = rotateArray([0, 1, 2, 3, 4, 5, 7, 9], -2);
+console.log(result);
