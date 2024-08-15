@@ -14,11 +14,7 @@ function isPositiveDominant(a) {
       }
     }
   }
-  if (objCount.positive > objCount.negative) {
-    return true;
-  } else {
-    return false;
-  }
+  return objCount.positive > objCount.negative;
 }
 const result = isPositiveDominant([5, 4, 3, 0, 0, -1, -1, -2, -2]);
 console.log(result);
