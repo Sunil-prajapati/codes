@@ -16,5 +16,14 @@ function isPositiveDominant(a) {
   }
   return objCount.positive > objCount.negative;
 }
-const result = isPositiveDominant([5, 4, 3, 0, 0, -1, -1, -2, -2]);
+isPositiveDominant([5, 4, 3, 0, 0, -1, -1, -2, -2]);
+
+// ===== Left Shift by Powers of Two ====
+function shiftToLeft(num, shift) {
+  if (shift === 0) {
+    return num;
+  }
+  return 2 * shiftToLeft(num, shift - 1);
+}
+const result = shiftToLeft(-32, 2);
 console.log(result);
