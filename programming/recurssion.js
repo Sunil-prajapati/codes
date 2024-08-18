@@ -25,4 +25,32 @@ const recurssionMagic = (obj, parentName) => {
   }
 };
 recurssionMagic(user, "user");
-console.log(finalObj);
+
+// ============ Is the Input Factorial of an Integer? ===========
+function isFactorial(num) {
+  let factorial = 1;
+  let i = 1;
+  while (factorial <= num) {
+    if (factorial === num) {
+      return true;
+    }
+    factorial *= i;
+    i++;
+  }
+  return false;
+}
+isFactorial(0);
+
+// ===== palindrome =================================
+function isPalindrome(str) {
+  if (str.length <= 1) {
+    return true;
+  }
+
+  if (str[0] !== str[str.length - 1]) {
+    return false;
+  }
+  return isPalindrome(str.slice(1, -1));
+}
+const result = isPalindrome("adieu");
+console.log(result);

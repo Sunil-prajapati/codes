@@ -69,3 +69,11 @@ const curriedJoin = curry(join);
 
 // console.log(curriedJoin(1, 2, 3));
 // console.log(curriedJoin(1)(2, 3));
+
+function add(a, b) {
+  return a + b;
+}
+
+console.log(curriedAdd(2, 3));
+// Output: 5
+console.log(curriedAdd(2)(3));
