@@ -1,0 +1,122 @@
+1. Flat structure
+
+    basically for the landing pages in which only once page/screen present
+    my-small-project/
+        src/
+            App.js
+            index.js
+            ComponentA.js
+            ComponentB.js
+        package.json
+        README.md
+
+
+2.Featured base structure
+
+    for medium to large projects with distinct features or module
+    my-feature-based-project/
+        src/
+            features/
+                auth/
+                    components/
+                        Login.js
+                        Register.js
+                    Screens/
+                        Login.screens
+                        RegisterScreen
+                    services/
+                        authService.js
+                profile/
+                    components/
+                        profileDetails.js
+                    Screens/
+                        profileDetails.js
+                    services/
+                        profileDetails.js
+            store/
+                rootReducer.js
+                store.js
+            App.js
+            index.js
+            package.json
+            README.md
+
+
+3.Layered structure
+
+    projects needing clear separation of concerns
+    my-layered-project
+        src/
+            components/
+                Buttons.js
+                Labels.js
+            screens/
+                HomeScreen.js
+                LoginScreen.js
+            services/
+                apiServices
+            utils/
+                helpers.js
+            hooks/
+                useAuth.js
+        App.js
+        index.js
+        package.json
+        README.md
+
+4. Domain Driven structure 
+
+    complex app with distinct business Domain
+    my-domain-driven-project
+        src/
+            domains/
+                user/
+                    components/
+                        userDetails.js
+                    screens/
+                        userScreens.js
+                    services/
+                        userService.js
+                event/
+                    components/
+                        EventsDetails.js
+                    screens/
+                        EventScreens.js
+                    services/
+                        EventService.js
+            store/
+                rootReducer.js
+                store.js
+            App.js
+            index.js
+            package.json
+            README.md
+
+
+5.Atomic Design structure
+    for npm packages or MUI like packages
+    src/
+        components/
+            atoms/
+            molecule/
+            organisms/
+            templates/
+            pages/
+
+
+6. MonoRepo structure 
+    when you have to make app and website of same business logic
+    with using yarn warna or lerna to create MonoRepo structure
+    my-monorepo-project
+        packages/
+            app1/
+                reactJs-app folder structure (layered one)
+            app2/
+                react-native-app folder structure
+            shared-components/
+                src/
+                    components/
+                    utils/
+
+7. micro frontend
+            
