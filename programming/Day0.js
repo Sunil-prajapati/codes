@@ -28,3 +28,27 @@ function returnDistinctUnique(array) {
   return newArray;
 }
 returnDistinctUnique([-9, -9, -9, 7, -9, -9, 1]);
+
+function splitBunches(bunches) {
+  let newArray = [];
+  for (let i = 0; i < bunches.length; i++) {
+    if (bunches[i].quantity > 1) {
+      for (let j = 0; j < bunches[i].quantity; j++) {
+        newArray.push({
+          name: bunches[i].name,
+          quantity: 1,
+        });
+      }
+    } else {
+      newArray.push(bunches[i]);
+    }
+  }
+  return newArray;
+}
+const result = splitBunches([
+  { name: "cherry tomatoes", quantity: 3 },
+  { name: "bananas", quantity: 1 },
+  { name: "grapes", quantity: 2 },
+  { name: "cherry tomatoes", quantity: 3 },
+]);
+console.log(result);
