@@ -7,7 +7,7 @@ test(); // output will be 1300 because of it' store into global variable
 
 // =================================================================
 function sam() {
-  //   console.log(sam.abc);
+  // console.log(sam.abc);
 }
 sam();
 sam.abc = 400;
@@ -27,11 +27,12 @@ sam();
 // console.log(a);
 
 // =========================================================================
-let ab = 10;
-let bc = new Number(10);
-let ca = 10;
-// console.log(a === b);
-// console.log(b === ca);
+// let ab = 10;
+// let bc = new Number(10);
+// let ca = 10;
+// console.log(ab === bc);
+// console.log(bc === ca);
+
 // both false because of object
 // ============================================================================
 function test2(record) {
@@ -48,21 +49,39 @@ function test2(record) {
 
 // ================================================================
 // console.log(+true);   //change into integer
-// console.log(!"test");   // truthy value
+// console.log(!"test"); // truthy value
 
 // ==============================================================
-var a = {};
-var b = { key: "b" };
-var c = { key: "c" };
+// var a = {};
+// var b = { key: "b" };
+// var c = { key: "c" };
 
-a[b] = 600;
-b[c] = 700;
+// a[b] = 600;
+// b[c] = 700;
 
-// console.log(a[c]);
-// console.log(a[b]);
-// console.log(b[b]);
-// console.log(b[c]);
+// console.log(a[c]); //600
+// console.log(a[b]); //600
+// console.log(b[b]); //700
+// console.log(b[c]); //700
 // ============================================================================
 let str = "abc";
 let str2 = 123456;
 // output : a1b2c3456
+
+// console.log("10" + 20 + 30);
+// //102030;
+// console.log(typeof [1, 2, 3]); // object
+// function a() {
+//   console.log(a, "var"); // undefined
+//   var a = 10;
+// }
+// a();
+// function b() {
+//   console.log(a, "let"); // cannot access before initialization
+//   let a = 10;
+// }
+// b();
+
+// const uer = { name: "honey", id: 10 };
+// const ue2 = { name: "honey", id: 10 };
+// console.log(uer === ue2); //false

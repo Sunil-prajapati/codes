@@ -225,7 +225,7 @@
 
 //39.
 // string number compared by each character
-// below console.log() will give true because 9 is greater then 1
+// below console.log() will give true because 9 is greater then 11
 // console.log("9" > "11")
 
 // 40.
@@ -323,21 +323,3 @@
 // Hooks can only be called inside React function components.
 // Hooks can only be called at the top level of a component.
 // Hooks cannot be conditional
-
-console.log("10" + 20 + 30);
-//102030;
-console.log(typeof [1, 2, 3]); // object
-function a() {
-  console.log(a, "var"); // undefined
-  var a = 10;
-}
-a();
-function b() {
-  console.log(a, "let"); // cannot access before initialization
-  let a = 10;
-}
-b();
-
-const uer = { name: "honey", id: 10 };
-const ue2 = { name: "honey", id: 10 };
-console.log(uer === ue2); //false
