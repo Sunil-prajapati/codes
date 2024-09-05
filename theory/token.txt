@@ -1,0 +1,24 @@
+
+======= main points =========
+secure way to store JWT 
+
+store in httpOnly cookie 
+and create only on backend 
+
+because cannot access by javascript
+serve app with express server
+mirror frontend round inside server
+frontend simply pings backend with data
+cookie can created both side client and server as well but httpOnly cookie creates only on backend
+
+
+
+
+Use cases affected by HttpOnly cookies
+There are 5 major flows that are affected by this problem.
+
+Login
+Logout
+Refresh
+Authenticating API calls
+and checking if the user session is expired or not
