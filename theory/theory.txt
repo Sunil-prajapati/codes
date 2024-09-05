@@ -18,7 +18,7 @@ refs is uncontrolled
 with dom we can manipulate
 
 ==========
-forwardRef lets your component expose a DOM node to parent component with a ref.
+forwardRef lets your child component expose a DOM node to parent component with a ref.
 
 ==========
 interceptors 

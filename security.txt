@@ -1,0 +1,9 @@
+1. Input output sanitization (automated set in frameworks unless dangerousHtml)
+2. Disable iframe embedding
+3. Security headers
+4. CORS
+5. AUTHORIZATION
+6. Generate source code false in build mode (package.json file)
+7. Store important key in .env file 
+8. Preventing cross-site scripting (XSS) attacks: solution(point no 1 and 2)
+9. Web storage
