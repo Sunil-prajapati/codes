@@ -63,3 +63,81 @@ parent to child data flow
     //   in App
     logErrorToMyService(error, info.componentStack);
   }
+
+  ============
+  in promise finally does not change or update any flow it's just execute
+
+  e.g:
+  const promise = new Promise(res => res(2));
+  promise.then(v => {
+      console.log(v);  // logs 2
+      return v * 2;    // returns 4
+  }).then(v => {
+      console.log(v);  // logs 4
+      return v * 2;    // returns 8
+  }).finally(v => {
+      console.log(v);  // logs undefined
+      return v * 2;    // has no effect on the next .then, v is undefined
+  }).then(v => {
+      console.log(v);  // logs 8
+  });
+
+  ==================
+  we can pass value, function and component as well from customHooks
+
+  ==========
+  propagation have three phases
+  Capturing (window to target)
+  bubbling (target to window)
+  Target 
+with the third argument we can change bubbling into Capturing (true)
+stopPropagation to stop both kind of propagation 
+
+  ============
+
+  how to call all three service at same time 
+
+  answer:
+async function getData(){
+    const url1 = //...
+    const url2 = //...
+
+    const response1 = await fetch(url1)
+    const data1 = await response1.json()
+
+    const response2 = await fetch(url2)
+    const data2 = await response1.json()
+
+    // do what you want with data1 and data2 here
+
+    
+}
+
+This works great the only downside is the await keyword pauses the function so the second request won't happen till the first one finishes.
+
+solution of above point is Promise.all()
+
+async function getData(){
+    const url1 = //...
+    const url2 = //...
+
+    const responses = await Promise.all([fetch(url1), fetch(url2)])
+
+    const data1 = await responses[0].json()
+    const data2 = await responses[1].json()
+
+    // do what you want with data1 and data2 here
+}
+
+getData()
+
+
+==== 
+q:what are render props 
+A:when we send a prop from child to parent then we use the value to make some some changes in either parent component or any other children component 
+=======
+
+<label>Your Image File
+  <input type="file" name="myImage" accept="image/png, image/gif, image/jpeg" />
+</label>
+
