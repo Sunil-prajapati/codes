@@ -13,7 +13,6 @@ function availableSpots(arr, num) {
       }
     }
   }
-
   return count;
 }
 

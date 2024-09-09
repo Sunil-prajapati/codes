@@ -193,3 +193,9 @@ const obj = {
 };
 
 obj.sayHello();
+
+// ======= Diff bw Function expression and function declration  =====
+
+// function declaration runs on compile time that's why it's hosted
+
+// Function expression runs when complier reach to that line (not hosting)
