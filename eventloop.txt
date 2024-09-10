@@ -1,7 +1,9 @@
 call stack (directly get into synchronous code)
-web api in between 
+event loop in between 
+runtime
 callback queue (in this basically we have all asynchronous code)
 micro task queue for promises and it priority more then callback queue
 method vs function
 we can call methods by . (maths.add)
 e.g fruites.forEach() 
+all things provided from browser or  node js runtime

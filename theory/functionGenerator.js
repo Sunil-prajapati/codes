@@ -24,6 +24,7 @@ function* generator() {
   yield 20;
 }
 const result = generator();
+// we have to make instance for generator function
 console.log(result.next());
 console.log(result.next());
 console.log(result.next()); // done flag will be true if there is no yield function call and value will return undefined

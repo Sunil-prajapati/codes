@@ -1,0 +1,10 @@
+this always calling site 
+
+if we have this in function in global space then we console it refers to the window
+
+if we call into object method then it refers to owner object 
+
+in strict mode this will show undefined in the function  
+
+in the arrow function we don't have own this 
+    inside arrow function this refers to the parent object
