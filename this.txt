@@ -8,3 +8,54 @@ in strict mode this will show undefined in the function
 
 in the arrow function we don't have own this 
     inside arrow function this refers to the parent object
+
+=== use this in object example ===
+const user = {
+  name: "John",
+  greet() {
+    console.log(`Hello, ${this.name}!`);
+  },
+};
+
+user.greet(); // Output: "Hello, John!"
+
+
+ ======== When Not to Use this in JavaScript ===
+
+ const user = {
+  name: "John",
+  greet() {
+    const innerFunc = () => {
+      console.log(`Hello, ${this.name}!`); // `this` refers to `user`
+    };
+    innerFunc();
+  },
+};
+
+user.greet(); // Output: "Hello, John!"
+
+
+
+
+=======b. Global Context in Strict Mode 
+"use strict";
+
+function globalFunc() {
+  console.log(this); // Output: undefined
+}
+globalFunc();
+======== ========
+
+Use this in JavaScript:
+
+When you need to refer to the current object in objects, classes, constructor functions, or event handlers.
+Avoid this in arrow functions, where it’s inherited from the surrounding context.
+
+
+
+
+Use this in React.js:
+
+In class components to access state, props, and methods.
+Avoid this in functional components and arrow functions, as these rely on hooks or lexical context.
+

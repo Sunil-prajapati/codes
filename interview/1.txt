@@ -1,0 +1,10 @@
+why we need to create a build of react app to deploy
+    Minification
+    Bundling : It combines multiple files into a single bundle, reducing the number of HTTP requests required to load the app.
+    Transpilation: The build process transpiles modern JavaScript features (like ES6+) into code that can be understood by older browsers, ensuring compatibility.
+    Optimization: It optimizes code for production environments, removing unnecessary code and improving performance.
+    Standardized Format
+    Caching
+how react lazy loading works behind the scene
+create a custom map function
+once we create a react project then what are things we have to do to deploy it 

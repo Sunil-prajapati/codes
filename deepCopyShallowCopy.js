@@ -19,11 +19,15 @@ let obj = {
 };
 
 // way to do shallow copy
-let user = Object.assign({}, obj);
-// let user = { ...obj };
+// let obj = user
+// let user = Object.assign({}, obj);
+
+// way to  deep copy
+let user = { ...obj };
 user.name = "bruce";
 // console.log(user);
 
+// in deep copy if we make some changes in nested object then it will update the original object
 // ==========
 // DEEP COPY : will not work when there is any function/date in the object
 // Solution is loadash
