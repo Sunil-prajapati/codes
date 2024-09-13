@@ -1,6 +1,5 @@
 // ===========prototype inheritance =========
-// when ever we create something on javascript it will attach with some by default property. that property attach because of
-//   __proto__
+// In JavaScript, prototypes are the mechanism by which objects inherit properties and methods from other objects
 // if we create any array or object it will attach with __proto__ because of this we can use push and other methods
 const obj = {
   name: "Sunil",
@@ -27,3 +26,20 @@ Function.prototype.mybind = function () {
 function fun() {}
 
 console.log(fun.__proto__.mybind); // we can use mybind function from by any other function because of prototype
+
+// ===== example =====
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+}
+
+// Adding a method to the prototype
+Person.prototype.greet = function () {
+  console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+};
+
+const person1 = new Person("John", 30);
+const person2 = new Person("Alice", 25);
+
+person1.greet(); // Output: Hello, my name is John and I am 30 years old.
+person2.greet(); // Output: Hello, my name is Alice and I am 25 years old.

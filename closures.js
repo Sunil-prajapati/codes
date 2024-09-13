@@ -39,7 +39,6 @@ function x() {
   return y;
 }
 var z = x();
-console.log(z);
 z();
 
 // use of closures

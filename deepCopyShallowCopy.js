@@ -19,8 +19,8 @@ let obj = {
 };
 
 // way to do shallow copy
-// let obj = user
-// let user = Object.assign({}, obj);
+// 1.let obj = user
+// 2.let user = Object.assign({}, obj);
 
 // way to  deep copy
 let user = { ...obj };

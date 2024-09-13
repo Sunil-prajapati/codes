@@ -39,7 +39,7 @@ function isFactorial(num) {
   }
   return false;
 }
-isFactorial(0);
+isFactorial(5);
 
 // ===== palindrome =================================
 function isPalindrome(str) {

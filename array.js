@@ -214,3 +214,7 @@ const user1 = {
 const user2 = { ...user1 };
 user2.city = "amritsar";
 // console.log(user1);
+
+let str2 = "codedamn";
+let array2 = str2.split("");
+console.log(array2);
