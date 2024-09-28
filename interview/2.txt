@@ -1,0 +1,29 @@
+tell me about your project 
+1. What project do (help the end-user to create the company, bank account in HK AND SIngapore)
+2. we are using java springboot  backend for payment app and node js for business services app 
+3. on frontend we are using gatsby and next js 
+4. we follow agile methods 
+
+
+what is your role and responsibility
+1. i do the estimation and requirmentes  with business analyist and product owner tem 
+2. then we create the design how will we gona implement 
+3. after that we do the development and testing with team 
+4. and finally publish the changes on different platforms and once done then deploy on production 
+5. also support the prod env if any bug encountered 
+
+explain technical design of your project 
+1. Layered structure for the frontend app and now we are moving for mono repo app 
+2. landing page .onborading floe, dashboard 
+3. Frontend: React JS for building the user interface.
+State Management: Redux or Context API for managing application state.
+Styling: sCSS or a CSS-in-JS library like styled-components or Emotion.
+API Integration: axios Integration with backend APIs to fetch and update financial data.
+Authentication: Implementation of secure authentication mechanisms (e.g., OAuth, JWT).
+Data Visualization: Libraries like Chart.js or Recharts for creating interactive charts and graphs.
+
+
+can you available at on weekend 
+firstly we try to plan the things that should not happen 
+yes, when we are going to prod then sometimes 
+we have to do things on weekends as reseller do extra work on festivals 
